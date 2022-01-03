@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './components/home/BarraNavegacao';
 import './components/home/BarraHero';
@@ -14,10 +13,10 @@ function App() {
       <nav>
         <BarraNavegacao/>
       </nav>
-      <body>
+      <div>
         <BarraHero/>
         <BarraInfo/>
-      </body>
+      </div>
     </div>
   );
 }
