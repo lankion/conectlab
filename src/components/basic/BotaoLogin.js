@@ -1,10 +1,11 @@
-import  login from '../../images/login.svg';
+import  user from '../../images/user.svg';
 
 function BotaoLogin(){
     return(
-        <div>
-            <img src={login} alt="Botão azul com um pessoa seguido da palavra fazer login"/>
-        </div>
+        <button>
+            <img src={user} alt="Figura de uma pessoa em vetorail"/>
+            Login
+        </button>
     );
 
 }

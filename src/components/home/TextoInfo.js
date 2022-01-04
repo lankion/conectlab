@@ -1,7 +1,7 @@
 function TextoInfo(props){
     return(
         <p>
-            {props.descricao}
+            {props.children}
         </p>
     );
 }

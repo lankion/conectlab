@@ -8,14 +8,15 @@ import BotaoGenerico from "../basic/BotaoGenerico";
 function BarraInfo(){
     return(
     <div>
+        <TextoInfo>Porque usar o ConectLab?</TextoInfo>
         <ImagemInfo image=''/>       
-        <TextoInfo descricao='De Alunos para Alunos'/>
+        <TextoInfo>De Alunos para Alunos</TextoInfo>
         <BotaoGenerico name='Entrar'/>
         <ImagemInfo image=''/>  
-        <TextoInfo descricao='Gratuito e fácil de usar'/>
+        <TextoInfo>Gratuito e fácil de usar</TextoInfo> 
         <BotaoGenerico name='Aprender'/>
         <ImagemInfo image=''/>  
-        <TextoInfo descricao='Compartilhe exercícios'/>
+        <TextoInfo>Compartilhe exercícios</TextoInfo>
         <BotaoGenerico name='Ensinar'/>
     </div>
     );
