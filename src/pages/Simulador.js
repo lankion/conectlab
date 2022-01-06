@@ -1,11 +1,7 @@
-import BarraNavegacao from '../components/home/BarraNavegacao';
-
 function Simulador(){
     return(
         <div>
-            <nav>
-                <BarraNavegacao/>
-            </nav>
+            <h2>Simulador</h2>
         </div>
     );
 }

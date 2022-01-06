@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.link{
+    font-family: Rubik;
+    display : flex;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:  #B5B1B2;
+}

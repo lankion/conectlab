@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.alinhamento{
+    font-family: Rubik;
+}
+.alinhamento h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 71px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.alinhamento p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}

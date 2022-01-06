@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.forma{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    width: 218.51px;
+    height: 58px;
+    left: 144px;
+    top: 430px;
+
+
+    background: #0099FF;
+    mix-blend-mode: normal;
+    border-radius: 30px;
+}

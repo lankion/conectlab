@@ -1,0 +1,4 @@
+.alinhamento{
+   display: flex;
+   flex-direction: column;
+}

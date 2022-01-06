@@ -1,22 +1,39 @@
 import './App.css';
-import BarraInfo from './components/home/BarraInfo';
-import BarraNavegacao from './components/home/BarraNavegacao';
-import BarraHero from './components/home/BarraHero';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Cadastro from './pages/Cadastro';
+import Colecao from './pages/Colecao';
+import Dashboard from './pages/Dashboard';
+import EditarPerfil from './pages/EditarPerfil';
+import Escolha from './pages/Escolha';
+import Home from './pages/Home';
+import Licoes from './pages/Licoes';
+import Login from './pages/Login';
+import Perfil from './pages/Perfil';
+import Simulador from './pages/Simulador';
+import BarraNavegacao from './components/navegacao/BarraNavegacao';
+
 
 
 function App() {
   return (
-      <div className="App">
-        <header className="App-header">
-        </header> 
-        <nav>
-          <BarraNavegacao/>
-        </nav>
-        <div>
-          <BarraHero/>
-          <BarraInfo/>
-        </div>
-      </div>  
+    <BrowserRouter>
+      <BarraNavegacao/>
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="simulador" element={<Simulador/>}/>
+          <Route path="login" element={<Login/>}/>
+          <Route path="cadastro" element={<Cadastro/>}/>
+          <Route path="dashboard" element={<Dashboard/>}/>
+          <Route path="escolha" element={<Escolha/>}/>
+          <Route path="perfil" element={<Perfil/>}>
+              <Route path="editar-perfil" element={<EditarPerfil/>}/>
+              <Route path="colecao" element={<Colecao/>}/>
+              <Route path="licoes" element={<Licoes/>}/> 
+            </Route>
+          <Route path='*' element={<Home/>}/>
+          
+      </Routes>
+    </BrowserRouter>   
   );
 }
 export default App;

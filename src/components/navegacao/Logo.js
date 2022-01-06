@@ -1,10 +1,11 @@
 import logo from '../../images/logo.svg';
+import {Link} from 'react-router-dom';
 
 function Logo(){
     return(
-        <div>
+        <Link to="/">
             <img src={logo} alt="Nome escrito ConectLab"/>
-        </div>
+        </Link>
     );
 }
 

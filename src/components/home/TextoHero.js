@@ -1,13 +1,12 @@
+import styles from '../home/TextoHero.module.css';
 function TextoHero(){
     return(
-        <div>
+        <div className={styles.alinhamento}>
             <h1>
             Exercite práticas de laboratório em casa
             </h1>
             <p>
-            O ConectLab é uma plicação Web desenvolvida por alunos da Universidade Federal do Ceará,
-            gratuito e fácil de usar que fornece a estudantes de engenharia,
-            habilidades fundamentais sobre circuitos elétricos. 
+            Teste suas habilidades sobre circuitos elétricos! 
             </p>
         </div>
     );

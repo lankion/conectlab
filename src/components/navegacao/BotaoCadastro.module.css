@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.alinhamento{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+.forma{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+
+    width: 149px;
+    height: 34px;
+    left: 1261px;
+    top: 23px;
+
+    background: #0099FF;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+
+    font-family: Rubik;
+    color: #FFFFFF;
+}
+.icon{
+    width: 15,79px;
+    height: 16,98px;
+
+}

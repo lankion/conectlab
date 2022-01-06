@@ -1,0 +1,9 @@
+.separa{
+    display: flex;
+    align-items: center;
+    width: 34px;
+    height: 0px;
+    border: 1px solid #B5B1B2;
+    transform: rotate(90deg);
+    margin-top: 30px;
+}

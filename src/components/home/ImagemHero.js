@@ -1,9 +1,9 @@
-import mock from '../../images/mockup.svg';
-
+import style from './ImagemHero.module.css';
 function ImagemHero(){
     return(
-        <img src={mock} alt="Imagem vai ser mudada"/>
+        <div className={style.image}>
+
+        </div>
     );
 }
-
 export default ImagemHero;

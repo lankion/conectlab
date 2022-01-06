@@ -3,24 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import Simulador from './pages/Simulador.js';
-import Login from './pages/Login.js';
-import Cadastro from './pages/Cadastro.js';
-import Dashboard from './pages/Dashboard.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-      <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path="/simulador" element={<Simulador/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/cadastro" element={<Cadastro/>}/>
-        <Route path="/dashboard" element={<Dashboard/>}/>
-      </Routes>
-    </BrowserRouter>     
+    <App/>    
   </React.StrictMode>,
   document.getElementById('root')
 );
