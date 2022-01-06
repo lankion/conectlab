@@ -1,7 +1,8 @@
+import styles from './BotaoGenerico.module.css';
 function BotaoGenerico(props){
     return(
-        <button>
-            {props.name}
+        <button className={styles.forma}>
+            {props.children} 
         </button>
         );
 }

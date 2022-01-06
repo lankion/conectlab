@@ -1,5 +1,11 @@
-.alinhamneto{
+.alinhamento{
     display: flex;
     align-items: center;
     align-content: center;
+}
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
 }

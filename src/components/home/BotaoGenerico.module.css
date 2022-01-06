@@ -1,0 +1,20 @@
+.forma{
+    width: 164px;
+    height: 43px;
+    
+    background: #0099FF;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
