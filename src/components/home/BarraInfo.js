@@ -15,8 +15,8 @@ function BarraInfo(){
     <TextoInfoPrincipal>
         Porque usar o ConectLab?
     </TextoInfoPrincipal>
-        <div className={style.alinhamento}>
-            <div className={style.block}>
+        <div className={style.container}>
+            <div className={style.itens}>
                 <ImagemInfo image={user}/>
                 <TextoInfoTitulo>
                     De Alunos para Alunos
@@ -24,11 +24,9 @@ function BarraInfo(){
                 <TextoInfoDescricao>
                     Desenvolvida por alunos da Universidade Federal do Ceará
                 </TextoInfoDescricao>
-                <BotaoGenerico>
-                    Entrar
-                </BotaoGenerico>
+                <BotaoGenerico name='Entrar' destino='escolha'/>
             </div>
-            <div className={style.block}>
+            <div className={style.itens}>
                 <ImagemInfo image={alarm}/>
                 <TextoInfoTitulo>
                     Gratuito e fácil de usar
@@ -36,11 +34,9 @@ function BarraInfo(){
                 <TextoInfoDescricao>
                     Teste suas habilidades sobre circuitos elétricos
                 </TextoInfoDescricao>
-                <BotaoGenerico>
-                    Aprender
-                </BotaoGenerico>
+                <BotaoGenerico name='Aprender' destino='login'/>
             </div>
-            <div className={style.block}>
+            <div className={style.itens}>
                 <ImagemInfo image={pasta}/>
                 <TextoInfoTitulo>
                     Compartilhe exercícios
@@ -48,9 +44,7 @@ function BarraInfo(){
                 <TextoInfoDescricao>
                     Compartilhe lições com seus colegas ou alunos
                 </TextoInfoDescricao>
-                <BotaoGenerico>
-                    Ensinar
-                </BotaoGenerico>
+                <BotaoGenerico name='Ensinar' destino='login'/>
             </div>              
         </div>
     </div>

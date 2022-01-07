@@ -1,11 +1,13 @@
-.alinhamento{
+.container{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     align-content: center;
+    margin-left: 15.125rem;
+    gap: 0.9375rem;
 }
-.block{
+.itens{
     display:flex;
     flex-direction: column;
     align-items: center;
-    align-items: center;
+    justify-content: space-between;
 }

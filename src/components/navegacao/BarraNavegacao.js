@@ -3,11 +3,11 @@ import LinkLogin from "../navegacao/LinkLogin";
 import LinkSimulador from "../navegacao/LinkSimulador";
 import Separador from '../navegacao/Separador';
 import BotaoCadastro from '../navegacao/BotaoCadastro';
-import styles from '../navegacao/BarraNavegacao.module.css';
+import style from '../navegacao/BarraNavegacao.module.css';
 
 function BarraNavegacao(){
     return(
-        <nav className={styles.navegacao}>
+        <nav className={style.container}>
             <Logo/>
             <LinkSimulador/>
             <Separador/>

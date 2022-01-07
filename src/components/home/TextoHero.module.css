@@ -2,25 +2,21 @@
 
 .alinhamento{
     font-family: Rubik;
-}
-.alinhamento h1{
-    font-family: Rubik;
+    color: #FFFFFF;
     font-style: normal;
+    letter-spacing: -0.02em;
+    margin: 7.375rem 0rem 0rem 7.125rem;
+}
+.alinhamento h1{  
     font-weight: bold;
     font-size: 60px;
     line-height: 71px;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
+   
 }
 .alinhamento p{
-    font-family: Rubik;
-    font-style: normal;
+   
     font-weight: normal;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
+    line-height: 24px;  
 
 }

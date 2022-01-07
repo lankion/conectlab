@@ -21,9 +21,12 @@
 
     font-family: Rubik;
     color: #FFFFFF;
+    gap: 0.625rem;
+
 }
 .icon{
     width: 15,79px;
     height: 16,98px;
+    
 
 }

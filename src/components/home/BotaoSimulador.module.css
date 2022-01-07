@@ -6,9 +6,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
 
     width: 218.51px;
@@ -16,8 +13,9 @@
     left: 144px;
     top: 430px;
 
-
     background: #0099FF;
     mix-blend-mode: normal;
     border-radius: 30px;
+
+    margin: 0rem 0rem 1em 7.125rem;
 }
