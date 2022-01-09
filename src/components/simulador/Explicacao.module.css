@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.texto{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1 rem;
+    line-height: 1.1875 rem;
+    letter-spacing: -0.02em;
+    color: #B5B1B2;
+    
+}

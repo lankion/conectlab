@@ -1,8 +1,9 @@
+import style from './SeparadorBarra.module.css';
 function SeparadorBarra(){
     return(
-        <>
-            <p>Separo</p>
-        </>
+        <div className={style.separa}>
+            
+        </div>
     );
 }
 export default SeparadorBarra;

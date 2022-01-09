@@ -5,19 +5,23 @@ import Explicacao from "./Explicacao";
 import Refazer from "./Refazer";
 import Selecionar from "./Selecionar";
 import Simular from "./Simular";
+import Atualizar from "./Atualizar";
+import style from './BarraFerramentas.module.css';
 
 function BarraFerramentas(){
     return(
-        <>
+        <div className={style.container}>
             <Selecionar/>
-            <Desfazer/>
+            <Atualizar/>
+            <Apagar/> 
             <SeparadorBarra/>
-            <Apagar/>
+            <Desfazer/>
             <Refazer/>
             <SeparadorBarra/>
             <Simular/>
+            <SeparadorBarra/>
             <Explicacao/>
-        </>
+        </div>
     );
 }
 export default BarraFerramentas;

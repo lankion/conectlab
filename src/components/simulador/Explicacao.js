@@ -1,8 +1,9 @@
+import style from './Explicacao.module.css';
 function Explicacao(){
     return(
-        <>
-            <p>Explica</p>
-        </>
+        <p className={style.texto}>
+            Clique e arraste o componente para a área de trabalho.
+        </p>
     );
 }
 export default Explicacao;

@@ -1,8 +1,8 @@
+import style from './EspacoSimulador.module.css';
 function EspacoSimulador(){
     return(
-        <>
-            <p>Estou Simulando</p>
-        </>
+        <div className={style.container}>
+        </div>
     );
 }
 export default EspacoSimulador;
