@@ -1,20 +1,17 @@
 import Logo from "../navegacao/Logo";
-import LinkLogin from "../navegacao/LinkLogin";
-import LinkSimulador from "../navegacao/LinkSimulador";
 import Separador from '../navegacao/Separador';
 import BotaoCadastro from '../navegacao/BotaoCadastro';
 import style from '../navegacao/BarraNavegacao.module.css';
+import LinkGenerico from "./LinkGenerico";
 
-function BarraNavegacao(){
+export default function BarraNavegacao(){
     return(
         <nav className={style.container}>
             <Logo/>
-            <LinkSimulador/>
+            <LinkGenerico destino='simulador' descricao="Simulador"/>
             <Separador/>
-            <LinkLogin/>
+            <LinkGenerico destino='login' descricao="Entrar"/>
             <BotaoCadastro/>       
         </nav>        
     );
 }
-
-export default BarraNavegacao;

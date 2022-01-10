@@ -1,9 +1,8 @@
 import style from '../navegacao/Separador.module.css';
-function Separador(){
+export default function Separador(){
     return(
         <div className={style.separa}>
 
         </div>
     );
 }
-export default Separador;

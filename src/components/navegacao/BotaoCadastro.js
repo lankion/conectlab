@@ -2,7 +2,7 @@ import pessoa from '../../images/user.svg';
 import style from '../navegacao/BotaoCadastro.module.css';
 import { useNavigate } from 'react-router-dom';
 
-function BotaoCadastro(){
+export default function BotaoCadastro(){
     let navigate = useNavigate();
     return(
         <div className={style.alinhamento}>
@@ -17,4 +17,3 @@ function BotaoCadastro(){
         </div>
     );
 }
-export default BotaoCadastro;

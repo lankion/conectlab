@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import style from '../home/BotaoSimulador.module.css';
 
-function BotaoSimulador(){
+export default function BotaoSimulador(){
     let navigate = useNavigate();
     return(
         <div className={style.alinhamento}>
@@ -15,5 +15,5 @@ function BotaoSimulador(){
         </div>
     );
 }
-export default BotaoSimulador;
+
 

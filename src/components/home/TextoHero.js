@@ -1,5 +1,5 @@
 import styles from '../home/TextoHero.module.css';
-function TextoHero(){
+export default function TextoHero(){
     return(
         <div className={styles.alinhamento}>
             <h1>
@@ -11,4 +11,3 @@ function TextoHero(){
         </div>
     );
 }
-export default TextoHero;

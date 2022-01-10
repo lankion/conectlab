@@ -9,7 +9,7 @@ import user from '../../images/userplus.svg';
 import alarm from '../../images/alarm.svg';
 import pasta from '../../images/folder.svg';
 
-function BarraInfo(){
+export default function BarraInfo(){
     return(
     <div>
     <TextoInfoPrincipal>
@@ -17,7 +17,7 @@ function BarraInfo(){
     </TextoInfoPrincipal>
         <div className={style.container}>
             <div className={style.itens}>
-                <ImagemInfo image={user}/>
+                <ImagemInfo image={user} descricao="Icone de usuario"/>
                 <TextoInfoTitulo>
                     De Alunos para Alunos
                 </TextoInfoTitulo>
@@ -27,7 +27,7 @@ function BarraInfo(){
                 <BotaoGenerico name='Entrar' destino='escolha'/>
             </div>
             <div className={style.itens}>
-                <ImagemInfo image={alarm}/>
+                <ImagemInfo image={alarm} descricao="Icone de alarme"/>
                 <TextoInfoTitulo>
                     Gratuito e fácil de usar
                 </TextoInfoTitulo>
@@ -37,7 +37,7 @@ function BarraInfo(){
                 <BotaoGenerico name='Aprender' destino='login'/>
             </div>
             <div className={style.itens}>
-                <ImagemInfo image={pasta}/>
+                <ImagemInfo image={pasta} descricao="Icone de pasta"/>
                 <TextoInfoTitulo>
                     Compartilhe exercícios
                 </TextoInfoTitulo>
@@ -51,4 +51,3 @@ function BarraInfo(){
 
     );
 }
-export default BarraInfo;

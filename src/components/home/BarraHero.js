@@ -2,7 +2,7 @@ import style from '../home/BarraHero.module.css';
 import TextoHero from './TextoHero';
 import BotaoSimulador from './BotaoSimulador';
 
-function BarraHero(){
+export default function BarraHero(){
     return(
         <div className={style.alinhamento}>                 
             <TextoHero/>
@@ -10,4 +10,3 @@ function BarraHero(){
         </div>
     );
 }
-export default BarraHero;

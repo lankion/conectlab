@@ -1,6 +1,5 @@
-function ImagemInfo(props){
+export default function ImagemInfo(props){
     return(
-        <img src={props.image}/>
+        <img src={props.image} alt={props.descricao}/>
     );
 }
-export default ImagemInfo;
