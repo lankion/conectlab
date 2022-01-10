@@ -1,8 +1,9 @@
-function ComponentePeca(){
+import style from './ComponentePeca.module.css';
+function ComponentePeca(props){
     return(
-        <>
-            <p>Peca</p>
-        </>
+        <div className={style.item}>
+            <img src={props.imagem} alt={props.descricao}/>
+        </div>
     );
 }
 export default ComponentePeca;

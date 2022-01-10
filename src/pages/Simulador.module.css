@@ -1,3 +1,5 @@
-.alinhamneto{
+.alinhamento{
     display: grid;
+    grid-template-areas: "component barra"
+                        "component simulador"
 }

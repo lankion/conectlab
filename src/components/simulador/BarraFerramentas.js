@@ -5,7 +5,9 @@ import Explicacao from "./Explicacao";
 import Refazer from "./Refazer";
 import Selecionar from "./Selecionar";
 import Simular from "./Simular";
+import Salvar from './Salvar';
 import Atualizar from "./Atualizar";
+
 import style from './BarraFerramentas.module.css';
 
 function BarraFerramentas(){
@@ -19,6 +21,7 @@ function BarraFerramentas(){
             <Refazer/>
             <SeparadorBarra/>
             <Simular/>
+            <Salvar/>
             <SeparadorBarra/>
             <Explicacao/>
         </div>

@@ -1,3 +1,4 @@
 .container{
+    grid-area: simulador;
     background-image: url(../../images/background.svg);
 }
