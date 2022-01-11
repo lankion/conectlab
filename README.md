@@ -13,7 +13,7 @@ O produto se constitui em um laboratório de circuitos digitais e eletrônicos c
 O nosso cliente, para o presente projeto, trata-se do professor Wellington Wagner Ferreira Sarmento, professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará. O docente tem como linhas de pesquisa: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância, Informática Educativa, Multimídia para Educação e Swarm Intelligence.
 
 
-## Equipe AVATAR
+## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC
 
 
 * LUCAS AUGUSTO PIMENTA ALVES - 392282
