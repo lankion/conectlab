@@ -1,8 +1,8 @@
-function Login(){
+import UsuarioLogar from '../components/loging/UsuarioLogar.js'
+export default function Login(){
     return(
-        <>
-            <p>Login</p>
-        </>
+        <div>
+           <UsuarioLogar/>
+        </div>
     );
 }
-export default Login;

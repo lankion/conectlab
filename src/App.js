@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Perfil from './pages/Perfil';
 import Simulador from './pages/Simulador';
 import BarraNavegacao from './components/navegacao/BarraNavegacao';
+import RecuperarSenha from './pages/RecuperarSenha';
 
 
 
@@ -25,11 +26,12 @@ function App() {
           <Route path="cadastro" element={<Cadastro/>}/>
           <Route path="dashboard" element={<Dashboard/>}/>
           <Route path="escolha" element={<Escolha/>}/>
+          <Route path="recuperar" element={<RecuperarSenha/>}/>
           <Route path="perfil" element={<Perfil/>}>
               <Route path="editar-perfil" element={<EditarPerfil/>}/>
               <Route path="colecao" element={<Colecao/>}/>
               <Route path="licoes" element={<Licoes/>}/> 
-            </Route>
+          </Route>
           <Route path='*' element={<Home/>}/>
           
       </Routes>

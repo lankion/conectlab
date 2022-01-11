@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.principal{
+    display: flex;
+    align-content: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1 rem;
+    line-height: 1.1875 rem;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.link{ 
+    color: #FF9540;
+}

@@ -1,8 +1,14 @@
+import NovoUsuario from "../components/cadastro/NovoUsuario";
+import Separador from "../components/navegacao/Separador";
+import UsuarioLogar from '../components/loging/UsuarioLogar';
+
 function Escolha(){
     return(
-        <>
-            <p>Escolha</p>
-        </>
+        <div>
+            <NovoUsuario/>
+            <Separador/>
+            <UsuarioLogar/>
+        </div>
     );
 }
 export default Escolha;

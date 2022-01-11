@@ -1,8 +1,10 @@
+import NovoUsuario from "../components/cadastro/NovoUsuario";
+
 function Cadastro(){
     return(
-        <>
-            <p>Novo Usuario</p>
-        </>
+        <div>
+            <NovoUsuario/>
+        </div>
     );
 }
 export default Cadastro;
