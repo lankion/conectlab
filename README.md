@@ -4,15 +4,14 @@
 
 
 ## Sumário
-* [Sobre](## Sobre)
-* [Cliente](## Cliente)
-* [Equipe](## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC)
-* [Mapeamento de Funcionalidades](## Mapeamento de Funcionalidades)
+* Sobre
+* Cliente
+* Equipe
+* Mapeamento de Funcionalidades
 
 ## Sobre
 
-O produto se constitui em um laboratório de circuitos digitais e eletrônicos com o objetivo de auxiliar as práticas de laboratório. No caso, há duas seções – uma delas é direcionada ao professor e a outra, ao aluno. O aluno vai poder ver os outros alunos da disciplina, bem como as tarefas a serem realizadas. Ao escolher “tarefa” ele terá uma descrição dela. Um editor gráfico será disponibilizado e o aluno poderá fazer ações por “arrastar e soltar” (drag and drop) e, no final, terá a opção de envio ao professor. O professor verá as turmas cadastradas, bem como a visualização das tarefas recebidas. Ao selecionar a tarefa, o editor gráfico será disponibilizado e o professor poderá conferir as respostas e enviar de volta ao aluno, tanto as correções como a nota.
-
+O produto se constitui em um laboratório de circuitos eletrônicos com o objetivo de auxiliar as práticas de laboratório. O usuário tem a opção de usá-lo sem cadastro e caso deseje abre-se a possibilidade para a possibilidade de propor lições e guardar circuitos criados no simulador. O simulador utiliza-se de ações de “arrastar e soltar” (drag and drop) para movimentação dos componentes, bem existe a opção de simulação para visualização dos resultados.
 
 ## Cliente
 
@@ -23,7 +22,6 @@ O nosso cliente, para o presente projeto, trata-se do professor [Wellington Wagn
 
 
 ## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC
-
 
 * LUCAS AUGUSTO PIMENTA ALVES - 392282
 * REBEKA MELO PERES - 407760
@@ -41,14 +39,66 @@ O nosso cliente, para o presente projeto, trata-se do professor [Wellington Wagn
 |  RF0005 | Inserir dados de cadastro de usuário |    |
 |  RF0006 | Mostrar erro, caso dados obrigatórios não preenchidos  |     |
 |  RF0007  | Armazenar dados cadastrados |    |
+|  RF0008 |  Mostrar usuário como cadastrado|     |
+| RF0009  | Mostrar tela de login |    |
+| RF0010   | Inserir dados de login |     |
+| RF0011  | Mostrar erro, caso dados de login estejam incorretos |    |
+|RF0012   | Consultar dados de usuário cadastrado |     |
+|RF0013   | Mostrar erro, caso não exista usuário cadastrado |    |
+| RF0014  | Mostrar tela de recuperar login |     |
+| RF0015  | Inserir dados de recuperar login  |    |
+| RF0016   | Mostrar erro, caso dados de recuperar login estejam incorretos |     |
+| RF0017  | Consultar dados de recuperar login |     |
+| RF0018  | Mostrar erro, caso não existam dados para recuperar login |    |
+| RF0019  | Mostrar dashboard/perfil |     |
+| RF0020  | Mostrar botão de alterar informações do usuário |    |
+| RF0021  | Inserir novo nome e sobrenome |     |
+| RF0022  | Mostrar erro, em caso de nome e sobrenome serem inconsistentes |    |
+| RF0023  | Inserir novo e-mail de usuário |     |
+| RF0024  | Mostrar erro, caso e-mail seja inconsistente |    |
+| RF0025 | Inserir senha antiga |     |
+| RF0026  | Inserir senha nova |    |
+| RF0027  | Mostrar erro, caso senha seja inconsistente |     |
+| RF0028  | Mostrar botão para guardar alterações |    |
+| RF0029  | Guarda nome e sobrenome |     |
+| RF0030 | Mostrar mensagem, nome e sobrenome atualizados |    |
+| RF0031  | Guardar e-mail atualizado |     |
+| RF0032  | Mostrar mensagem de e-mail atualizado |    |
+| RF0033  | Guardar senha alterada |     |
+| RF0034  | Mostrar mensagem de senha atualizada |    |
+| RF0035 | Mostrar botão de deletar perfil |     |
+| RF0036  | Mostrar aviso perguntando se deseja confirmar exclusão de perfil |    |
+| RF0037  | Mostrar mensagem de perfil deletado |     |
+| RF0038  | Redirecionar para página inicial após perfil deletado |     |
+| RF0039 | Mostrar coleção |     |
+| RF0040 | Selecionar circuito armazenado |     |
+| RF0041  | Deletar circuito armazenado |     |
+| RF0042  | Mostrar mensagem perguntando se deseja deletar circuito armazenado |     |
+| RF0043  | Mostrar mensagem informando circuito deletado |     |
+| RF0044  | Abrir simulador para alterar circuito armazenado |     |
+| RF0045  | Mostrar lições |     |
+| RF0046  | Selecionar lição |     |
+| RF0047  | Criar lição |     |
+| RF0048  | Deletar lição      |
+| RF0049  | Mostrar mensagem perguntando se deseja deletar lição armazenada |     |
+| RF0050  | Mostrar mensagem de lição deletada |     |
+| RF0051  | Mostrar tela de simulação |     |
+| RF0052  | Mostrar biblioteca de componentes |     |
+| RF0053  | Escolher modalidade de visualização de componentes |     |
+| RF0054  | Selecionar componente |     |
+| RF0055  | Posicionar componente |     |
+| RF0056  | Conectar componente |     |
+| RF0057  | Retirar componente |     |
+| RF008   |  |     |
 |   |  |     |
-|   |  |    |
 |   |  |     |
-|   |  |    |
 |   |  |     |
-|   |  |    |
 |   |  |     |
-|   |  |    |
+|   |  |     |
+|   |  |     |
+|   |  |     |
+|   |  |     |
+|   |  |     |
 |   |  |     |
 
 
@@ -58,209 +108,6 @@ O nosso cliente, para o presente projeto, trata-se do professor [Wellington Wagn
 
 
 
-
-
-RF0008
-Mostrar usuário como cadastrado
-
-
-RF0009
-Mostrar tela de login
-
-
-RF0010
-Inserir dados de login
-
-
-RF0011
-Mostrar erro, caso dados de login estejam incorretos
-
-
-RF0012
-Consultar dados de usuário cadastrado
-
-
-RF0013
-Mostrar erro, caso não exista usuário cadastrado
-
-
-RF0014
-Mostrar tela de recuperar login
-
-
-RF0015
-Inserir dados de recuperar login
-
-
-RF0016
-Mostrar erro, caso dados de recuperar login estejam incorretos
-
-
-RF0017
-Consultar dados de recuperar login
-
-
-RF0018
-Mostrar erro, caso não existam dados para recuperar login
-
-
-RF0019
-Mostrar dashboard/perfil
-
-
-RF0020
-Mostrar botão de alterar informações do usuário
-
-
-RF0021
-Inserir novo nome e sobrenome
-
-
-RF0022
-Mostrar erro, em caso de nome e sobrenome serem inconsistentes
-
-
-RF0023
-Inserir novo e-mail de usuário
-
-
-RF0024
-Mostrar erro, caso e-mail seja inconsistente
-
-
-RF0025
-Inserir senha antiga
-
-
-RF0026
-Inserir senha nova
-
-
-RF0027
-Mostrar erro, caso senha seja inconsistente
-
-
-RF0028
-Mostrar botão para guardar alterações
-
-
-RF0029
-Guarda nome e sobrenome
-
-
-RF0030
-Mostrar mensagem, nome e sobrenome atualizados
-
-
-RF0031
-Guardar e-mail atualizado
-
-
-RF0032
-Mostrar mensagem de e-mail atualizado
-
-
-RF0033
-Guardar senha alterada
-
-
-RF0034
-Mostrar mensagem de senha atualizada
-
-
-RF0035
-Mostrar botão de deletar perfil
-
-
-RF0036
-Mostrar aviso perguntando se deseja confirmar exclusão de perfil
-
-
-RF0037
-Mostrar mensagem de perfil deletado
-
-
-RF0038
-Redirecionar para página inicial após perfil deletado
-
-
-RF0039
-Mostrar coleção
-
-
-RF0040
-Selecionar circuito armazenado
-
-
-RF0041
-Deletar circuito armazenado
-
-
-RF0042
-Mostrar mensagem perguntando se deseja deletar circuito armazenado
-
-
-RF0043
-Mostrar mensagem informando circuito deletado
-
-
-RF0044
-Abrir simulador para alterar circuito armazenado
-
-
-RF0045
-Mostrar lições
-
-
-RF0046
-Selecionar lição
-
-
-RF0047
-Criar lição
-
-
-RF0048
-Deletar lição
-
-
-RF0049
-Mostrar mensagem perguntando se deseja deletar lição armazenada
-
-
-RF0050
-Mostrar mensagem de lição deletada
-
-
-RF0051
-Mostrar tela de simulação
-
-
-RF0052
-Mostrar biblioteca de componentes
-
-
-RF0053
-Escolher modalidade de visualização de componentes
-
-
-RF0054
-Selecionar componente
-
-
-RF0055
-Posicionar componente
-
-
-RF0056
-Conectar componente
-
-
-RF0057
-Retirar componente
-
-
-RF0058
 Girar componente
 
 
