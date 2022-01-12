@@ -89,96 +89,19 @@ O nosso cliente, para o presente projeto, trata-se do professor [Wellington Wagn
 | RF0055  | Posicionar componente |     |
 | RF0056  | Conectar componente |     |
 | RF0057  | Retirar componente |     |
-| RF008   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-|   |  |     |
-
-
-
-
-
-
-
-
-Girar componente
-
-
-RF0059
-Copiar e colar componente
-
-
-RF0060
-Mostrar instrumento de medição
-
-
-RF0061
-Selecionar instrumento de medição
-
-
-RF0062
-Posicionar instrumento de medição
-
-
-RF0063
-Conectar instrumento de medição
-
-
-RF0064
-Retirar instrumento de medição
-
-
-RF0065
-Girar instrumento de medição
-
-
-RF0066
-Copiar e colar instrumento de medição
-
-
-RF0067
-Desfazer ação na simulação
-
-
-RF0068
-Refazer ação na simulação
-
-
-RF0069
-Iniciar simulação
-
-
-RF0070
-Mostrar animação de simulação
-
-
-RF0071
-Mostrar resultados da simulação
-
-
-RF0072
-Parar simulação
-
-
-RF0073
-Salvar componente presente na área de simulação
-
-
-
-
-
-
-
-
-
-
-
-
-
+| RF0058   | Girar componente |     |
+| RF0059  | Copiar e colar componente |     |
+| RF0060  | Mostrar instrumento de medição |     |
+| RF0061  | Selecionar instrumento de medição |     |
+| RF0062  | Posicionar instrumento de medição |     |
+| RF0063  | Conectar instrumento de medição |     |
+| RF0064  | Retirar instrumento de medição |     |
+| RF0065  | Girar instrumento de medição  |     |
+| RF0066  | Copiar e colar instrumento de medição |     |
+| RF0067  | Desfazer ação na simulação |     |
+| RF0068  | Refazer ação na simulação |     |
+| RF0069  | Iniciar simulação |     |
+| RF0070  | Mostrar animação de simulação |     |
+| RF0071  | Mostrar resultados da simulação |     |
+| RF0072  | Parar simulação |     |
+| RF0073  | Salvar componente presente na área de simulação |     |
