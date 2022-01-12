@@ -4,10 +4,10 @@
 
 
 ## Sumário
-* [Sobre]()
-* [Cliente]()
-* [Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC]()
-* [Mapeamento de Funcionalidades]()
+* [Sobre](## Sobre)
+* [Cliente](## Cliente)
+* [Equipe](## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC)
+* [Mapeamento de Funcionalidades](## Mapeamento de Funcionalidades)
 
 ## Sobre
 
