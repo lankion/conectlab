@@ -8,7 +8,11 @@ import email from '../../images/mail.svg';
 import cadeado from '../../images/lock.svg';
 
 export default function NovoUsuario(){
-    const { register } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const onSubmit = data => {
+        console.log(data);
+        localStorage.setItem("cadastro", data);
+    }
     return(
         
         <div>
@@ -19,34 +23,37 @@ export default function NovoUsuario(){
             Precisamos de alguns dados para criar sua conta.
             </TextoDescricao>
 
-            <form className={style.alinhamento}>
+            <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>
                 <label>
                     <img src={user} alt="Icone de pessoa"/>
                     NOME
-                    <input {...register("primeironome")}>
-                    </input>
+                    {errors.primeironome && <span>nome é obrigatorio</span>}
+                    <input {...register("primeironome")} placeholder="nome" required/>
                 </label>
 
                 <label> 
                     <img src={user} alt="Icone de pessoa"/>
                     SOBRENOME
-                    <input {...register("sobrenome")}/>
+                    {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
+                    <input {...register("sobrenome")} placeholder='sobrenome' required/>
                 </label>
 
                 <label> 
                     <img src={email} alt="Icone de email"/>
                     E-MAIL
-                    <input type="email" {...register("email")}/>
+                    {errors.email && <span>e-mail é obrigatório</span>}
+                    <input type="email" {...register("email")} placeholder="nome@email.com" required/>
                 </label>
             
                 <label>
                     <img src={cadeado} alt="Icone de um cadeado"/>                
                     SENHA
-                    <input type="password" {...register("senha")}/>
+                    {errors.senha && <span>Senha é obrigatória</span>}
+                    <input type="password" {...register("senha")} placeholder="4 a 8 caracteres" required/>
                 </label>
             
                 <label>
-                    <input type="checkbox"{...register("aceite")}/>
+                    <input type="checkbox"{...register("aceite")} required/>
                     Eu aceito os Termos e Condições
                 </label>
                 

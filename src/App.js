@@ -4,7 +4,6 @@ import Cadastro from './pages/Cadastro';
 import Colecao from './pages/Colecao';
 import Dashboard from './pages/Dashboard';
 import EditarPerfil from './pages/EditarPerfil';
-import Escolha from './pages/Escolha';
 import Home from './pages/Home';
 import Licoes from './pages/Licoes';
 import Login from './pages/Login';
@@ -25,7 +24,6 @@ function App() {
           <Route path="login" element={<Login/>}/>
           <Route path="cadastro" element={<Cadastro/>}/>
           <Route path="dashboard" element={<Dashboard/>}/>
-          <Route path="escolha" element={<Escolha/>}/>
           <Route path="recuperar" element={<RecuperarSenha/>}/>
           <Route path="perfil" element={<Perfil/>}>
               <Route path="editar-perfil" element={<EditarPerfil/>}/>

@@ -8,7 +8,8 @@ import cadeado from '../../images/lock.svg';
 import LinkNormal from "./LinkNormal.js";
 
 export default function NovoUsuario(){
-    const { register } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const onSubmit = data => console.log(data);
     return(
         
         <div>
@@ -19,18 +20,20 @@ export default function NovoUsuario(){
             Faça login em sua conta aqui.
             </TextoDescricao>
 
-            <form className={style.alinhamento}>
+            <form className={style.alinhamento} onSubmit={handleSubmit(onSubmit)}>
                
                 <label> 
                     <img src={email} alt="Icone de email"/>
                     E-MAIL
-                    <input type="email" {...register("email")}/>
+                    {errors.email && <span>email é obrigatorio</span>}
+                    <input type="email" {...register("email")} placeholder="nome@email.com" required/>
                 </label>
             
                 <label>
                     <img src={cadeado} alt="Icone de um cadeado"/>                
                     SENHA
-                    <input type="password" {...register("senha")}/>
+                    {errors.senha && <span>senha é obrigatorio</span>}
+                    <input type="password" {...register("senha")} placeholder="4 a 8 caracteres" required/>
                 </label>
             
                 <input type="submit" value="Entrar"/>

@@ -24,7 +24,7 @@ export default function BarraInfo(){
                 <TextoInfoDescricao>
                     Desenvolvida por alunos da Universidade Federal do Ceará
                 </TextoInfoDescricao>
-                <BotaoGenerico name='Entrar' destino='escolha'/>
+                <BotaoGenerico name='Entrar' destino='login'/>
             </div>
             <div className={style.itens}>
                 <ImagemInfo image={alarm} descricao="Icone de alarme"/>
