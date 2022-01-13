@@ -1,5 +1,6 @@
 # ConectLab
 
+
 ![Página Inicial](https://user-images.githubusercontent.com/34467745/149210878-7657b2ef-3890-4cee-a53a-90782eea2260.png)
 
 
@@ -10,19 +11,20 @@
 * Equipe
 * Mapeamento de Funcionalidades
 
+
 ## Sobre
 
 O produto se constitui em um laboratório de circuitos eletrônicos com o objetivo de auxiliar as práticas de laboratório. O usuário tem a opção de usá-lo sem a obrigatoriedade de cadastro, mas uma vez cadastrado, abrir-se-á a possibilidade de se criar lição e de se armazenar o circuito criado no simulador. O simulador utiliza-se de ações de “arrastar e soltar” (drag and drop) para movimentação dos componentes, e ainda há a opção de simulação para visualização dos resultados.
+
 
 ## Cliente
 
 ![cliente](https://user-images.githubusercontent.com/34467745/148120773-a65f1b37-1017-45d3-8af6-46ccde3d0780.jpeg)
 
-
 O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](https://github.com/wwagner33), professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC. O docente tem como linhas de pesquisa: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância; Informática Educativa; Multimídia para Educação; Swarm Intelligence.
 
 
-## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da UFC
+## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC
 
 |  NOME                         |  FUNÇÃO                    |  MATRÍCULA  |
 |  ---------------------------- |  --------------------------|  ---------  |
