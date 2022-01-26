@@ -1,7 +1,8 @@
 # ConectLab
 
 
-![Página Inicial](https://user-images.githubusercontent.com/34467745/149210878-7657b2ef-3890-4cee-a53a-90782eea2260.png)
+![Página Inicial](https://user-images.githubusercontent.com/44882364/151262661-13e218b4-b3b6-44b9-9bed-b722cf2957d1.jpg)
+
 
 
 ## Sumário
