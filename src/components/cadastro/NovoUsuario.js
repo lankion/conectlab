@@ -24,28 +24,28 @@ export default function NovoUsuario(){
             </TextoDescricao>
 
             <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>
-                <label>
+                <label className={style.text}>
                     <img src={user} alt="Icone de pessoa"/>
                     NOME
                     {errors.primeironome && <span>nome é obrigatorio</span>}
                     <input {...register("primeironome")} placeholder="nome" required/>
                 </label>
 
-                <label> 
+                <label className={style.text}> 
                     <img src={user} alt="Icone de pessoa"/>
                     SOBRENOME
                     {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
                     <input {...register("sobrenome")} placeholder='sobrenome' required/>
                 </label>
 
-                <label> 
+                <label className={style.text}> 
                     <img src={email} alt="Icone de email"/>
                     E-MAIL
                     {errors.email && <span>e-mail é obrigatório</span>}
                     <input type="email" {...register("email")} placeholder="nome@email.com" required/>
                 </label>
             
-                <label>
+                <label className={style.text}>
                     <img src={cadeado} alt="Icone de um cadeado"/>                
                     SENHA
                     {errors.senha && <span>Senha é obrigatória</span>}
