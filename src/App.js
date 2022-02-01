@@ -9,7 +9,8 @@ import Licoes from './pages/Licoes';
 import Login from './pages/Login';
 import Perfil from './pages/Perfil';
 import Simulador from './pages/Simulador';
-import BarraNavegacao from './components/navegacao/BarraNavegacao';
+import NavigationBarConnected from './components/navigation/NavigationBarConnected';
+import NavigationBarDisconnected from './components/navigation/NavigationBarDisconnected';
 import RecuperarSenha from './pages/RecuperarSenha';
 
 
@@ -17,7 +18,8 @@ import RecuperarSenha from './pages/RecuperarSenha';
 function App() {
   return (
     <BrowserRouter>
-      <BarraNavegacao/>
+      <NavigationBarDisconnected/>
+      <NavigationBarConnected/>
       <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="simulador" element={<Simulador/>}/>

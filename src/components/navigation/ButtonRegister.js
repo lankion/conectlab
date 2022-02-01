@@ -1,8 +1,8 @@
 import pessoa from '../../images/user.svg';
-import style from '../navegacao/BotaoCadastro.module.css';
+import style from '../navigation/ButtonRegister.module.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function BotaoCadastro(){
+export default function ButtonRegister(){
     let navigate = useNavigate();
     return(
         <div className={style.alinhamento}>
