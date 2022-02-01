@@ -12,6 +12,7 @@ export default function NovoUsuario(){
     const onSubmit = data => {
         console.log(data);
         localStorage.setItem("cadastro", data);
+    
     }
     return(
         
@@ -28,14 +29,14 @@ export default function NovoUsuario(){
                     <img src={user} alt="Icone de pessoa"/>
                     NOME
                     {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input {...register("primeironome")} placeholder="nome" required/>
+                    <input {...register("firstName")} placeholder="nome" required/>
                 </label>
 
                 <label className={style.text}> 
                     <img src={user} alt="Icone de pessoa"/>
                     SOBRENOME
                     {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
-                    <input {...register("sobrenome")} placeholder='sobrenome' required/>
+                    <input {...register("lastName")} placeholder='sobrenome' required/>
                 </label>
 
                 <label className={style.text}> 
@@ -49,11 +50,11 @@ export default function NovoUsuario(){
                     <img src={cadeado} alt="Icone de um cadeado"/>                
                     SENHA
                     {errors.senha && <span>Senha é obrigatória</span>}
-                    <input type="password" {...register("senha")} placeholder="4 a 8 caracteres" required/>
+                    <input type="password" {...register("password")} placeholder="4 a 8 caracteres" required/>
                 </label>
             
                 <label>
-                    <input type="checkbox"{...register("aceite")} required/>
+                    <input type="checkbox"{...register("aceppt")} required/>
                     Eu aceito os Termos e Condições
                 </label>
                 
