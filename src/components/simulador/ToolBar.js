@@ -7,10 +7,9 @@ import Selecionar from "./Selecionar";
 import Simular from "./Simular";
 import Salvar from './Salvar';
 import Atualizar from "./Atualizar";
+import style from './ToolBar.module.css';
 
-import style from './BarraFerramentas.module.css';
-
-function BarraFerramentas(){
+export default function ToolBar(){
     return(
         <div className={style.container}>
             <Selecionar/>
@@ -27,4 +26,3 @@ function BarraFerramentas(){
         </div>
     );
 }
-export default BarraFerramentas;

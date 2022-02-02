@@ -1,10 +1,11 @@
 .alinhamento{
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr; 
-    grid-template-rows: 0.2fr 1.8fr 1fr; 
-    gap: 0px 0px;  
-    grid-template-areas: "component barra barra"
-                        "component simulador simulador"
-                        "component simulador simulador";
+    display: grid; 
+    grid-template-columns: 0.8fr 1.2fr 1fr; 
+    grid-template-rows: 0.2fr 1.3fr 1.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "tool-bar tool-bar tool-bar"
+      "components simulator simulator"
+      "components simulator simulator"; 
 
 }

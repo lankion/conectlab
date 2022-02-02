@@ -1,12 +1,12 @@
-import ComponenteGeral from '../components/simulador/ComponenteGeral';
+import WardrobeComponent from '../components/simulador/WardrobeComponent';
 import EspacoSimulador from '../components/simulador/EspacoSimulador';
-import BarraFerramentas from '../components/simulador/BarraFerramentas';
 import style from './Simulador.module.css';
+import ToolBar from '../components/simulador/ToolBar';
 function Simulador(){
     return(
         <div className={style.alinhamento}>
-            <ComponenteGeral/>
-            <BarraFerramentas/>
+            <ToolBar/>
+            <WardrobeComponent/>          
             <EspacoSimulador/>
         </div>
     );

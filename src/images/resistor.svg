@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.7 8.09"><g id="Camada_2" data-name="Camada 2"><g id="Camada_3" data-name="Camada 3"><rect y="3.46" width="15.15" height="0.98"/><path d="M40.93,1V7.09H15.15V1H40.93m1-1H14.15V8.09H41.93V0Z"/><rect x="41.93" y="3.43" width="13.76" height="1"/></g></g></svg>
+<svg width="64" height="10" viewBox="0 0 64 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_913_323)">
+<path d="M48.19 4V0H16.26V4H0V5.1H16.26V9.29H48.19V5.1H64V4H48.19ZM47 8.14H17.41V1.14H47V8.14Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_913_323">
+<rect width="64" height="9.29" fill="white"/>
+</clipPath>
+</defs>
+</svg>
