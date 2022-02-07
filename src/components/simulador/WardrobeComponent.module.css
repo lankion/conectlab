@@ -1,0 +1,26 @@
+.components{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "component component component"
+    "component component component"
+    "instrument instrument instrument"
+    "instrument instrument instrument"; 
+    grid-area: components;  
+}
+.component{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "title-component title-component title-component"
+    ". . ."
+    ". . ."; 
+    grid-area: component;
+}
+.titleComponent{
+    grid-area: title-component;
+}
