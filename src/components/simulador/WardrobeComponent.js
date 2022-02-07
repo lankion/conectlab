@@ -1,13 +1,6 @@
-//import ComponentePeca from './ComponentePeca';
-//import ComponenteInfo from './ComponenteInfo';
 import style from './WardrobeComponent.module.css';
-//import resistor from '../../images/resistor.svg';
-//import capacitor from '../../images/capacitor.svg';
-//import bateria from '../../images/bateria.svg';
-//import interruptor from '../../images/switch.svg';
-//import led from '../../images/led.svg';
-//import botao from '../../images/button.svg';
 import SpacerDescription from './SpacerDescription';
+import Resistor from '../circuits/Resistor';
 
 export default function WardrobeComponent(){
     return(
@@ -15,7 +8,9 @@ export default function WardrobeComponent(){
             <section className={style.ccomponent}>
                 <header className={style.titleComponent}>
                     <SpacerDescription description="Componentes"/>
+                    <Resistor/>
                 </header>
+                
             </section>
             <section className={style.ccomponent}>
                 <header className={style.titleComponent}>

@@ -1,14 +1,13 @@
-import WardrobeComponent from '../components/simulador/WardrobeComponent';
-import EspacoSimulador from '../components/simulador/EspacoSimulador';
 import style from './Simulador.module.css';
 import ToolBar from '../components/simulador/ToolBar';
-function Simulador(){
+import WardrobeComponent from '../components/simulador/WardrobeComponent';
+import SimulatedSpace from '../components/simulador/SimulatedSpace';
+export default function Simulador(){
     return(
         <div className={style.alinhamento}>
             <ToolBar/>
-            <WardrobeComponent/>          
-            <EspacoSimulador/>
+            <WardrobeComponent/>
+            <SimulatedSpace/>         
         </div>
     );
 }
-export default Simulador;

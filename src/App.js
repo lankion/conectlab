@@ -1,4 +1,3 @@
-import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Cadastro from './pages/Cadastro';
 import Colecao from './pages/Colecao';
@@ -12,8 +11,6 @@ import NavigationBarConnected from './components/navigation/NavigationBarConnect
 import NavigationBarDisconnected from './components/navigation/NavigationBarDisconnected';
 import RecuperarSenha from './pages/RecuperarSenha';
 import ProtectedPages from './pages/ProtectedPages';
-
-
 
 function App() {
   return (
