@@ -11,6 +11,8 @@ import NavigationBarConnected from './components/navigation/NavigationBarConnect
 import NavigationBarDisconnected from './components/navigation/NavigationBarDisconnected';
 import RecuperarSenha from './pages/RecuperarSenha';
 import ProtectedPages from './pages/ProtectedPages';
+import jquery from 'jquery';
+//window.$ = window.jQuery = jquery;
 
 function App() {
   return (

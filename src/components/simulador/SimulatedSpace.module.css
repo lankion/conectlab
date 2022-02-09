@@ -1,4 +1,10 @@
 .container{
     grid-area: simulator;
     background-image: url(../../images/background.svg);
+    width: 1400px;
+    height: 800px;
+}
+.container svg{
+    margin-left: 340px;
+    left: 0px;
 }

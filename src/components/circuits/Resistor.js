@@ -1,5 +1,8 @@
+import { useState } from "react";
 import draw2d from "draw2d";
-import resistor from '../../images/resistor.svg';
+import imagem from '../../images/resistor.svg';
+import style from "./Resistor.module.css";
+
 export default function Resistor(){
     const Resistor = draw2d.SVGFigure.extend({
         NAME: "Resistor",
@@ -24,6 +27,28 @@ export default function Resistor(){
     
             this.label.installEditor( new draw2d.ui.LabelInplaceEditor());
         },
+        /**
+        *  Called by the simulator for every calculation
+        *  loop
+        *  @required
+        **/
+        calculate:function()
+        {
+        },
+        /**
+        *  Called if the simulation mode is starting
+        *  @required
+        **/
+        onStart:function()
+        {
+        },
+        /**
+        *  Called if the simulation mode is stopping
+        *  @required
+        **/
+        onStop:function()
+        {
+        },
         getSVG: function(){
             return `<svg width="64" height="10" viewBox="0 0 64 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_913_323)">
@@ -38,11 +63,21 @@ export default function Resistor(){
     
         },
     });
+    const [resistor , setResistor] = useState();
+    const dragEvent ={
+        onDragStart: (e, resistor) =>{
+            e.preventDefault();
+            console.log("onDragStart");
+            setResistor(resistor = Resistor());
+            e.dataTransfer.setData("text/plain", resistor);
+        }
+    };
     return(
-        <div>
-            <img src={resistor} alt="Figura de um ressitor"/>
-            {Resistor()}
-            <p>Resistor</p>
+        
+        <div className={style.box} draggable="true" {...dragEvent} >
+            <img src={imagem} alt="Figura de um ressitor"/>
+            
+            <p>RESISTOR</p>
         </div>
     );
 }
