@@ -27,12 +27,13 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 
 ## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC
 
-|  NOME                         |  FUNÇÃO                    |  MATRÍCULA  |
-|  ---------------------------- |  --------------------------|  ---------  |
-|  LUCAS AUGUSTO PIMENTA ALVES  |  DESIGN                    |  392282     |
-|  REBEKA MELO PERES            |  DESIGN                    |  407760     |
-|  RICARDO RODRIGUES PEREIRA    |  CODIFICAÇÃO E ATENDIMENTO |  396061     |
-|  RONALD DO VALE GADELHA       |  CODIFICAÇÃO E ATENDIMENTO |  404078     |
+|  NOME                          |  FUNÇÃO                    |  MATRÍCULA  |
+|  ----------------------------  |  --------------------------|  ---------  |
+|  ISRAEL DE CARVALHO DOS SANTOS |  CODIFICAÇÃO               |  497282     |
+|  LUCAS AUGUSTO PIMENTA ALVES   |  DESIGN                    |  392282     |
+|  REBEKA MELO PERES             |  DESIGN                    |  407760     |
+|  RICARDO RODRIGUES PEREIRA     |  CODIFICAÇÃO E ATENDIMENTO |  396061     |
+|  RONALD DO VALE GADELHA        |  CODIFICAÇÃO E ATENDIMENTO |  404078     |
 
 
 ## Mapeamento de Funcionalidades
