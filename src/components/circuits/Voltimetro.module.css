@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 91px;
+    height: 109px;
+    border: 2px solid #DEDEDE;
+    box-sizing: border-box;
+}
+.box img{
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+.box p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;    
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+    margin-top: 0px
+}
