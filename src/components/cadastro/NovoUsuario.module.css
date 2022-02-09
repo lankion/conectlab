@@ -1,21 +1,69 @@
+@import "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css";
+@import "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css";
+@import  "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+p{
+    margin:20px;
+}
+label{
+    font-weight: 100;
+}
 .alinhamento{
     display: flex;
     flex-direction: column;
     align-content: space-between;
     align-items: center;
 }
+.nomeSobrenome{
+    display: flex;
+    width:  291px;
+    justify-content: space-around;
+}
+.nomeSobrenome .placeholder {
+    box-sizing: border-box;
+    display: flex;}
 .item{
     display: flex;
     align-items: center;
     align-content: center;
 }
-.text{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+text{ font-family: Rubik;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 12px;
+       line-height: 14px; 
+       padding-left: 4px}
+/*.text input{ margin-right: 0; margin-left: 5px;}*/
+input {
+    border: 1px solid #B5B1B2;
+    border-radius: 12px;
+    display: table;
+    height: 34px;
+    width: auto;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    margin-right: 5px;
 }
-.text input{
-    margin-left: 5px;
+ input[type='email'], input[type='password'] {
+    width: 338px;
+    box-sizing: border-box; }
+  input[type='submit'] {
+    padding-left: 0%;
+    width: 290px;
+    background: #0099FF;
+    border-radius: 12px;
+    padding-left: 0%;
+    color: #fff;
 }
+input[type='submit']:hover{
+    background: #2291db;
+}
+
+input[type='checkbox']{
+    margin-right: 5px;
+    margin-top: -7px;
+    float: left;}
+.container{
+    margin-top: 11px;
+    align-self: center;}
+.containerbutton{align-content: flex-end;}
+/*<img src={email} alt="Icone de email"/> <img src={user} alt="Icone de pessoa"/> <img src={cadeado} alt="Icone de um cadeado"/><img src={user} alt="Icone de pessoa"/>*/    

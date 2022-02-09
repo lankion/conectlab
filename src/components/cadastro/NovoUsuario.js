@@ -14,55 +14,50 @@ export default function NovoUsuario(){
         localStorage.setItem("cadastro", data);
     
     }
+       
     return(
-        
         <div>
             <TextoInfo>
                 Bem-vindo!
             </TextoInfo>
-            <TextoDescricao>
-            Precisamos de alguns dados para criar sua conta.
-            </TextoDescricao>
+            <p>
+                <TextoDescricao>
+                Precisamos de alguns dados
+            para criar sua conta.
+                </TextoDescricao>
+           
+            </p>
 
-            <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>
-                <label className={style.text}>
-                    <img src={user} alt="Icone de pessoa"/>
-                    NOME
-                    {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input {...register("firstName")} placeholder="nome" required/>
-                </label>
-
+            <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>              
+                <div class="nomeSobrenome">            
+                     <label className={style.text}>
+                     NOME
+                      {errors.primeironome && <span>nome é obrigatorio</span>}
+                     <input {...register("firstName")} placeholder="nome" required/>
+                  </label>   
                 <label className={style.text}> 
-                    <img src={user} alt="Icone de pessoa"/>
-                    SOBRENOME
-                    {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
-                    <input {...register("lastName")} placeholder='sobrenome' required/>
+                     SOBRENOME
+                     {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
+                     <input {...register("lastName")} placeholder='sobrenome' required/>
                 </label>
-
+                </div>
                 <label className={style.text}> 
-                    <img src={email} alt="Icone de email"/>
-                    E-MAIL
-                    {errors.email && <span>e-mail é obrigatório</span>}
-                    <input type="email" {...register("email")} placeholder="nome@email.com" required/>
-                </label>
-            
-                <label className={style.text}>
-                    <img src={cadeado} alt="Icone de um cadeado"/>                
+                    E-MAIL                 
+                     {errors.email && <span>e-mail é obrigatório</span>}
+                     <input type="email" {...register("email")} 
+                      placeholder="nome@email.com" required/>                   
+                </label>      
+                <label className={style.text}>            
                     SENHA
                     {errors.senha && <span>Senha é obrigatória</span>}
                     <input type="password" {...register("password")} placeholder="4 a 8 caracteres" required/>
                 </label>
-            
-                <label>
-                    <input type="checkbox"{...register("aceppt")} required/>
-                    Eu aceito os Termos e Condições
+                <label className={style.container}>
+                     <label for="checkboxTermos">Eu aceito os Termos e Condições</label>                  
+                     <input type="checkbox"{...register("aceppt")} id="checkboxTermos" name="checkboxTermos" required/>
                 </label>
-                
                 <input type="submit" value="Criar conta"/>
-                
+                <LinkEstilizado destino='/login' texto="Já possui conta?" estilizado=" Entrar"/>
             </form>
-                <LinkEstilizado destino='/login' texto="Já possui conta" estilizado="Entrar"/>
-        </div>
-        
-    );
+        </div> );
 }

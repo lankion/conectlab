@@ -39,8 +39,10 @@ export default function NovoUsuario(){
                 <input type="submit" value="Entrar"/>
                 
             </form>
+            <div className={style.alinhamento}>
                 <LinkNormal destino='/recuperar' texto='Esqueceu sua senha'/>
-                <LinkEstilizado destino='/cadastro' texto="Novo por aqui" estilizado="Inscrever-se"/>
+                <LinkEstilizado destino='/cadastro' texto="Novo por aqui?   " estilizado=" Inscrever-se"/>
+            </div>
         </div>
         
     );

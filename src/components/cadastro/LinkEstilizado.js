@@ -5,7 +5,7 @@ export default function LinkEstilizado(props){
         <p className={style.principal}>
             {props.texto}
             <Link to={props.destino} className={style.link}>
-            {props.estilizado}
+            &nbsp;{props.estilizado}
             </Link>
         </p>
     );

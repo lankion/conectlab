@@ -1,0 +1,6 @@
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
