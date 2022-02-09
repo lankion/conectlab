@@ -4,7 +4,7 @@ import style from './SimulatedSpace.module.css';
 export default function SimulatedSpace(){
     useEffect(() => {
         const canvas = new draw2d.Canvas("canvas");
-    }, []);
+   }, []);
     const dragEvents ={
         onDragEnter: (e) =>{
             e.preventDefault();
@@ -30,7 +30,7 @@ export default function SimulatedSpace(){
         },
     };
     return(
-        <div  id="canvas" className={style.container} draggable="true"  {...dragEvents}>
+        <div className={style.container} draggable="true"  {...dragEvents}>
             
         </div>
     );
