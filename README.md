@@ -7,12 +7,15 @@
 
 ## Sumário
 
-* [Sobre]()
-* [Cliente](##Cliente)
-* [Equipe](##Equipe)
-* [Mapeamento de Funcionalidades]
-* <a href="##Sobre">Sobre</a>
-
+<p align="center">
+ <a href="#sobre">Sobre</a> •
+ <a href="#cliente">Cliente</a> • 
+ <a href="#equipe-avatar">Equipe</a> • 
+ <a href="#mapeamento-de-funcionalidades">Mapeamento de Funcionalidades</a> • 
+ <a href="#youtube">Apresentação</a>
+  <a href="#documento">Relatório</a>
+</p>
+                  
 
 ## Sobre
 
@@ -26,7 +29,7 @@ O produto se constitui em um laboratório de circuitos eletrônicos com o objeti
 O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](https://github.com/wwagner33), professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC. O docente tem como linhas de pesquisa: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância; Informática Educativa; Multimídia para Educação; Swarm Intelligence.
 
 
-## Equipe AVATAR do Curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC
+## Equipe AVATAR 
 
 |  NOME                          |  FUNÇÃO                    |  MATRÍCULA  |
 |  ----------------------------  |  --------------------------|  ---------  |
@@ -114,3 +117,12 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 |  RF0071  |  Mostrar resultados da simulação                                       |                                                       |
 |  RF0072  |  Parar simulação                                                       |                                                       |
 |  RF0073  |  Salvar componente presente na área de simulação                       |                                                       |
+
+## Youtube
+Segue o link da apresentação do Youtube apresetando o presente projeto abaixo:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=vgHLnixMp4g" target="_blank"><img src="http://img.youtube.com/vi/vgHLnixMp4g/0.jpg" 
+alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
+
+## Documento
+Segue o relatátorio do planejamneto do projeto em questão
+[Relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf)
