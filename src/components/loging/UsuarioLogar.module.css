@@ -1,0 +1,21 @@
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.text input{
+    margin-left: 5px;
+}
