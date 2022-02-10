@@ -12,8 +12,9 @@
  <a href="#cliente">Cliente</a> • 
  <a href="#equipe-avatar">Equipe</a> • 
  <a href="#mapeamento-de-funcionalidades">Mapeamento de Funcionalidades</a> • 
- <a href="#youtube">Apresentação</a>
-  <a href="#documento">Relatório</a>
+ <a href="#youtube">Apresentação</a> •
+ <a href="#documento">Relatório</a> •
+ <
 </p>
                   
 
@@ -40,13 +41,66 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 |  RONALD DO VALE GADELHA        |  CODIFICAÇÃO E ATENDIMENTO |  404078     |
 
 
+ ## Youtube
+Segue o link da apresentação do Youtube apresetando o presente projeto abaixo:
+ 
+ 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=vgHLnixMp4g" target="_blank"><img src="http://img.youtube.com/vi/vgHLnixMp4g/0.jpg" 
+alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
+
+## Documento
+Segue o relatátorio [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) do planejamneto do projeto em questão
+
+## Instalação
+ 
+### Parte frontend
+```
+// Clone essse repositório
+ 
+$ git clone 
+ 
+// Navege até a pasta conectlab
+ 
+$ cd conectlab
+ 
+// Começe a instalação dos pacotes por npm
+ 
+$ npm install
+ 
+// Para executar o aplicativo react pela parte Front
+ 
+$ npm start
+
+// A janela do seu navegador padrão abre automaticamente carregado o programa em questão
+ 
+```
+ 
+### Parte backend
+ ```
+ // Navege para backend
+ 
+ $ cd backend
+ 
+ // Instale os pacotes para o backend 
+ 
+ $ npm install
+ 
+ // Para executar a parte Backend
+ 
+ $ npm run dev
+ 
+ //A porta que ele roda é http://localost:3001
+ ```
+ 
+Uma versão do buil se encontra em [build](https://github.com/lankion/conectlab/releases)
+ 
 ## Mapeamento de Funcionalidades
 
 |  Código  |  Funcionalidade                                                        |  Funções/Arquivos de Código                           |
 |  ------- |  --------------------------------------------------------------------  |  ---------------------------------------------------  |
 |  RF0001  |  Mostrar página inicial                                                |  Home() e BarraHero() BarraInfo()                     |
-|  RF0002  |  Mostrar barra de navegação padrão                                     |  BarraNavegacao()                                     |
-|  RF0003  |  Mostrar barra de navegação logado                                     |                                                       |
+|  RF0002  |  Mostrar barra de navegação padrão                                     |  NavigationBarDisconnected()                          |
+|  RF0003  |  Mostrar barra de navegação logado                                     |  NavigationBarConnected()                             |
 |  RF0004  |  Mostrar formulário de cadastro de usuário                             |  Cadastro() e NovoUsuario()                           |
 |  RF0005  |  Inserir dados de cadastro de usuário                                  |  NovoUsuario()                                        |
 |  RF0006  |  Mostrar erro, caso dados obrigatórios não preenchidos                 |  NovoUsuario()                                        |
@@ -54,9 +108,7 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 |  RF0008  |  Mostrar usuário como cadastrado                                       |                                                       |
 |  RF0009  |  Mostrar tela de login                                                 |  Login() e UsuarioLogar()                             |    
 |  RF0010  |  Inserir dados de login                                                |  UsuarioLogar()                                       |
-|  RF0011  |  Mostrar erro, caso dados de login estejam incorretos                  |                                                       | 
-|  RF0012  |  Consultar dados de usuário cadastrado                                 |                                                       |
-|  RF0012  |  Consultar dados de usuário cadastrado                                 |                                                       |
+|  RF0011  |  Mostrar erro, caso dados de login estejam incorretos                  |  UsuarioLogar()                                       | 
 |  RF0012  |  Consultar dados de usuário cadastrado                                 |                                                       |
 |  RF0013  |  Mostrar erro, caso não exista usuário cadastrado                      |                                                       |
 |  RF0014  |  Mostrar tela de recuperar login                                       |  RecuperarSenha()                                     |
@@ -118,11 +170,3 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 |  RF0072  |  Parar simulação                                                       |                                                       |
 |  RF0073  |  Salvar componente presente na área de simulação                       |                                                       |
 
-## Youtube
-Segue o link da apresentação do Youtube apresetando o presente projeto abaixo:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=vgHLnixMp4g" target="_blank"><img src="http://img.youtube.com/vi/vgHLnixMp4g/0.jpg" 
-alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
-
-## Documento
-Segue o relatátorio do planejamneto do projeto em questão
-[Relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf)
