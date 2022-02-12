@@ -11,4 +11,6 @@
 }
 .link{ 
     color: #FF9540;
+    margin-left: 5px;
+    text-decoration: none;
 }

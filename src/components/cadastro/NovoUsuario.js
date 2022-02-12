@@ -29,14 +29,14 @@ export default function NovoUsuario(){
                     <img src={user} alt="Icone de pessoa"/>
                     NOME
                     {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input {...register("firstName")} placeholder="nome" required/>
+                    <input {...register("firstName")} placeholder="Nome" required/>
                 </label>
 
                 <label className={style.text}> 
                     <img src={user} alt="Icone de pessoa"/>
                     SOBRENOME
                     {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
-                    <input {...register("lastName")} placeholder='sobrenome' required/>
+                    <input {...register("lastName")} placeholder='Sobrenome' required/>
                 </label>
 
                 <label className={style.text}> 
@@ -59,9 +59,10 @@ export default function NovoUsuario(){
                 </label>
                 
                 <input type="submit" value="Criar conta"/>
-                
+            
+            <LinkEstilizado destino='/login' texto="Já possui conta?" estilizado="Entrar"/>  
             </form>
-                <LinkEstilizado destino='/login' texto="Já possui conta" estilizado="Entrar"/>
+               
         </div>
         
     );
