@@ -13,7 +13,6 @@ const dbUrl = config.dbUrl;
 
 MongoClient.connect(dbUrl,{useNewUrlParser: true, useUnifiedTopology : true} ,(err, client) => {
   if (err) return console.log(err)
-  db = client.db('conectlab') 
   console.log("BD conectado")
 });
 

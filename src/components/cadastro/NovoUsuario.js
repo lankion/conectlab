@@ -8,9 +8,11 @@ import { Link } from "react-router-dom";
 export default function NovoUsuario(){
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
+        fetch("http://localhost:3001/user/new", {
+            method: "POST",
+            body : JSON.stringify(data),
+        });
         console.log(data);
-        localStorage.setItem("cadastro", data);
-    
     }
     return(
         
@@ -26,7 +28,7 @@ export default function NovoUsuario(){
                 <label className={style.text}>
                     NOME COMPLETO
                     {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input type="completeName" {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
+                    <input type="text" {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
                 </label>
 
                 <label className={style.text}> 
@@ -42,8 +44,8 @@ export default function NovoUsuario(){
                 </label>
             
                 <label className={style.container}>
-                     <label for="checkboxTermos">Eu aceito os <Link to="termos" className={style.termos}>Termos e Condições</Link>. </label>                  
-                     <input type="checkbox"{...register("aceppt")} id="checkboxTermos" name="checkboxTermos" required/>
+                     <label >Eu aceito os <Link to="termos" className={style.termos}>Termos e Condições</Link>. </label>                  
+                     <input type="checkbox"{...register("aceppt")}  required/>
                 </label>
                 
                 <input type="submit" value="Criar conta"/>
