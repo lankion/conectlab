@@ -9,12 +9,7 @@
     align-items: center;
     gap: 5px;
 }
-.text input{
-    border: 1px solid #B5B1B2;
-    box-sizing: border-box;
-    border-radius: 12px;
-       
-}
+
 input {
     border: 1px solid #B5B1B2;
     border-radius: 12px;
@@ -25,7 +20,7 @@ input {
     margin-bottom: 8px;
     margin-top: 8px;
 } 
-input[type='email'], input[type='password'], [type='completeName'] {
+input[type='email'], input[type='password'], [type='text'] {
     width: 338px;
     box-sizing: border-box;
 }
