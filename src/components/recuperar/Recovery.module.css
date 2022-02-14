@@ -39,6 +39,7 @@ input[type='email'] {
     box-sizing: border-box;
 }
 input[type='submit'] {
+    margin-top: 8px;
     margin-left: 24px;
     padding-left: 0%px;
     width: 290px;

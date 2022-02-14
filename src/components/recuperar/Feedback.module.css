@@ -9,7 +9,23 @@
     align-items: center;
 }
 .container{
-    margin-top: 11px;
+    border: 1px solid #B5B1B2;
+    border-radius: 12px;
+    height: 34px;
+    width: auto;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     align-self: center;
     align-content: flex-end;
+    padding-left: 0%;
+    width: 290px;
+    background: #0099FF;
+    border-radius: 12px;
+    padding-left: 0%;
+    color: #fff;
+    text-decoration: none;
+}
+.container:hover{
+    background: #078CE4;
 }
