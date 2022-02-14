@@ -14,7 +14,7 @@ export default function Feedback(){
             Tudo feito! Enviamos um e-mail com sua nova senha.
             </TextoDescricao>
             <Link to="/login">
-                <button type="button">
+                <button type="button" className={style.container}>
                     Entrar
                 </button>
             </Link>
