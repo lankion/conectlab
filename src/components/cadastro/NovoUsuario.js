@@ -3,9 +3,7 @@ import TextoDescricao from "./TextoDescricao";
 import { useForm } from 'react-hook-form';
 import style from './NovoUsuario.module.css';
 import LinkEstilizado from "./LinkEstilizado";
-import user from '../../images/user.svg';
-import email from '../../images/mail.svg';
-import cadeado from '../../images/lock.svg';
+import { Link } from "react-router-dom";
 
 export default function NovoUsuario(){
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -24,38 +22,28 @@ export default function NovoUsuario(){
             Precisamos de alguns dados para criar sua conta.
             </TextoDescricao>
 
-            <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>
+            <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>          
                 <label className={style.text}>
-                    <img src={user} alt="Icone de pessoa"/>
-                    NOME
+                    NOME COMPLETO
                     {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input {...register("firstName")} placeholder="Nome" required/>
+                    <input type="completeName" {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
                 </label>
 
                 <label className={style.text}> 
-                    <img src={user} alt="Icone de pessoa"/>
-                    SOBRENOME
-                    {errors.sobrenome && <span>sobrenome é obrigatorio </span>}
-                    <input {...register("lastName")} placeholder='Sobrenome' required/>
-                </label>
-
-                <label className={style.text}> 
-                    <img src={email} alt="Icone de email"/>
                     E-MAIL
                     {errors.email && <span>e-mail é obrigatório</span>}
-                    <input type="email" {...register("email")} placeholder="nome@email.com" required/>
+                    <input type="email" {...register("email")} placeholder="seunome@email.com" required className={style.iconE}/>
                 </label>
             
-                <label className={style.text}>
-                    <img src={cadeado} alt="Icone de um cadeado"/>                
+                <label className={style.text}>               
                     SENHA
                     {errors.senha && <span>Senha é obrigatória</span>}
-                    <input type="password" {...register("password")} placeholder="4 a 8 caracteres" required/>
+                    <input type="password" {...register("password")} placeholder="4 a 8 caracteres" required className={style.iconP}/>
                 </label>
             
-                <label>
-                    <input type="checkbox"{...register("aceppt")} required/>
-                    Eu aceito os Termos e Condições
+                <label className={style.container}>
+                     <label for="checkboxTermos">Eu aceito os <Link to="termos" className={style.termos}>Termos e Condições</Link>. </label>                  
+                     <input type="checkbox"{...register("aceppt")} id="checkboxTermos" name="checkboxTermos" required/>
                 </label>
                 
                 <input type="submit" value="Criar conta"/>

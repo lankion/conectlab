@@ -11,7 +11,7 @@ export default function Botao(){
         init: function(){
             this._super();
             
-            // Criansdo as conexões para a figuras e colocando uma label para alterar o valor
+            // Criando as conexões para a figuras e colocando uma label para alterar o valor
             const inputLocator = new draw2d.layout.locator.InputPortLocator();
             const outputLocator = new draw2d.layout.locator.OutputPortLocator();
     

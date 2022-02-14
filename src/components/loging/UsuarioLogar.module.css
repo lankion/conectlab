@@ -1,4 +1,8 @@
 .alinhamento{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -18,4 +22,16 @@
 }
 .text input{
     margin-left: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.iconE{
+    padding-left: 25px;
+    background: url(../../images/mail.svg) no-repeat left;
+    background-size: 20px;
+}
+.iconP{
+    padding-left: 25px;
+    background: url(../../images/lock.svg) no-repeat left;
+    background-size: 20px;
 }

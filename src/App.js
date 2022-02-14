@@ -11,6 +11,7 @@ import NavigationBarConnected from './components/navigation/NavigationBarConnect
 import NavigationBarDisconnected from './components/navigation/NavigationBarDisconnected';
 import RecuperarSenha from './pages/RecuperarSenha';
 import ProtectedPages from './pages/ProtectedPages';
+import RedefinirFeedback from './pages/RedefinirFeedback';
 import jquery from 'jquery';
 //window.$ = window.jQuery = jquery;
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="login" element={<Login/>}/>
             <Route path="cadastro" element={<Cadastro/>}/>
             <Route path="recuperar" element={<RecuperarSenha/>}/>
+            <Route path="feedback" element={<RedefinirFeedback/>}/>
           </Route>
 
           <Route element={<ProtectedPages/>}>
