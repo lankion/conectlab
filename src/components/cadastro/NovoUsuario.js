@@ -42,8 +42,7 @@ export default function NovoUsuario(){
             body : JSON.stringify({ data }),
             headers: {"Content-Type" : "application/json"},
         })
-        .then(res => res)
-        ;
+        .then(res => res.json());
         console.log(data);
     }
     return(
