@@ -47,7 +47,7 @@ Link da apresentação desse projeto:
 alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
 
 ## Documento
-Clique e veja nosso [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) de planejamneto desse projeto.
+Clique e veja nosso [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) de planejamento desse projeto.
 
 ## Instalação
  
