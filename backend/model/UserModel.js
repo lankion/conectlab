@@ -26,6 +26,10 @@ const UserSchema = new mongoose.Schema(
     }
 );
 module.exports = mongoose.model("User", UserSchema);
+
+
+/*
+
 // contactController.js// Import contact model
 Contact = require('./contactModel');
 // Handle index actions
@@ -68,7 +72,8 @@ exports.view = function (req, res) {
         });
     });
 };// Handle update contact info
-exports.update = function (req, res) {Contact.findById(req.params.contact_id, function (err, contact) {
+exports.update = function (req, res) {
+    Contact.findById(req.params.contact_id, function (err, contact) {
         if (err)
             res.send(err);contact.name = req.body.name ? req.body.name : contact.name;
         contact.gender = req.body.gender;
@@ -95,3 +100,9 @@ exports.delete = function (req, res) {
         });
     });
 };
+
+
+*/
+
+
+

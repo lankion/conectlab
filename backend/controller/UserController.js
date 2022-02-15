@@ -1,11 +1,8 @@
 const User = require("../model/UserModel.js");
-exports.get = function (req, res){
+exports.get = function (req, res, next){
     User.get(function (err, User){
         if(err){
-            res.json({
-                status: "error",
-                message: err,
-            });
+            return next(err);;
         }
         res.json({
             status: "success",
@@ -14,23 +11,22 @@ exports.get = function (req, res){
         })
     })
 };
-exports.add = function(req, res){
+exports.add = function(req, res, next){
     let user = new User();
     user.completeName = req.body.completeName;
     user.email = req.body.email;
+    user.password = req.body.password;
     user.aceppt= req.body.aceppt;
     user.photo= false;
     user.save(function (err){
-        if (err)
-        res.json(err);
-        res.json({
-            message: "Novo usuário craido",
-            data: user,
-        })
-    });
+    if (err) {
+        return next(err);
+    }
+    res.send("Usuário criado com sucesso")
+    })
 };
 exports.update = function(req, res){
-    res.send("Eu atualizao um usuario");
+    res.send("Eu atualizo um usuario");
 };
 exports.delete = function(req, res){
     res.send("Eu deleto um usuario");

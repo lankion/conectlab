@@ -10,7 +10,13 @@ export default function NovoUsuario(){
     const onSubmit = data => {
         fetch("http://localhost:3001/user/new", {
             method: "POST",
-            body : JSON.stringify(data),
+            body : JSON.stringify({
+                "completeName": data.completeName,
+                "email": data.email,
+                "password": data.password,
+                "aceppt": data.aceppt,
+                "photo": data.photo, 
+            }),
         });
         console.log(data);
     }
