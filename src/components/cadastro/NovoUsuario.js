@@ -42,7 +42,7 @@ export default function NovoUsuario(){
             body : JSON.stringify({ data }),
             headers: {"Content-Type" : "application/json"},
         })
-        .then()
+        .then(res => res)
         ;
         console.log(data);
     }
