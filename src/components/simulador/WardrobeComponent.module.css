@@ -9,6 +9,7 @@
     "instrument instrument instrument"
     "instrument instrument instrument"; 
     grid-area: components;  
+
 }
 .component{
     display: grid; 

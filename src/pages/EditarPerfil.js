@@ -1,8 +1,10 @@
-function EditarPerfil(){
+import MenuPrincipal from "../components/dashboard/MenuPrincipal";
+import UsuarioDados from "../components/dashboard/UsuarioDados";
+export default function EditarPerfil(){
     return(
-        <>
-            <p>Editar EditarPerfil</p>
-        </>
+        <div>
+           <MenuPrincipal/>
+           <UsuarioDados/> 
+        </div>
     );
 }
-export default EditarPerfil;

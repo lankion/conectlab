@@ -1,7 +1,6 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Cadastro from './pages/Cadastro';
 import Colecao from './pages/Colecao';
-import Dashboard from './pages/Dashboard';
 import EditarPerfil from './pages/EditarPerfil';
 import Home from './pages/Home';
 import Licoes from './pages/Licoes';
@@ -34,11 +33,9 @@ function App() {
             <Route element={<NavigationBarConnected/>}>
               <Route path="/" element={<Home/>}/>
               <Route path="simulador" element={<Simulador/>}/>
-              <Route path="dashboard" element={<Dashboard/>}>
-                <Route path="editar-perfil" element={<EditarPerfil/>}/>
-                <Route path="colecao" element={<Colecao/>}/>
-                <Route path="licoes" element={<Licoes/>}/> 
-              </Route>
+              <Route path="editar-perfil" element={<EditarPerfil/>}/>
+              <Route path="colecao" element={<Colecao/>}/>
+              <Route path="licoes" element={<Licoes/>}/> 
             </Route>        
           </Route>
           

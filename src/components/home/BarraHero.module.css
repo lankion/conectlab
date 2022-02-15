@@ -3,5 +3,5 @@
    flex-direction: column;
    align-items: flex-start;
    background-image: url(../../images/mockup.svg);
-   gap: 0.625rem;
+  gap: 0.625rem;
 }
