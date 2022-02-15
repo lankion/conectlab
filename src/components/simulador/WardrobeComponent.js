@@ -13,7 +13,7 @@ import Amperimetro from '../circuits/Amperimetro';
 
 export default function WardrobeComponent(){
     return(
-        <div className={style.componets}>
+        <div className={style.componets} >
             <header className={style.titleComponent}>
                     <SpacerDescription description="Componentes"/>  
             </header>
