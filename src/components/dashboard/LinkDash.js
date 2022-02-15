@@ -4,7 +4,7 @@ export default function LinkDash(props){
     return(
         <div>
             <img src={style.image} alt="icones do dashboard"/>
-            <Link to={props.destino} className={style.props.escolha}>
+            <Link to={props.destino} className={style.escolha}>
                 {props.texto}
             </Link>
         </div>

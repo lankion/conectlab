@@ -4,20 +4,46 @@ import { useForm } from 'react-hook-form';
 import style from './NovoUsuario.module.css';
 import LinkEstilizado from "./LinkEstilizado";
 import { Link } from "react-router-dom";
+/*
+ const submit = e => {
+    e.preventDefault()
+    fetch('/api', {
+      method: 'POST',
+      body: JSON.stringify({ user }),
+      headers: { 'Content-Type': 'application/json' },
+    })
+      .then(res => res.json())
+      .then(json => setUser(json.user))
+  }
+
+  return (
+    <form onSubmit={submit}>
+      <input
+        type="text"
+        name="user[name]"
+        value={user.name}
+        onChange={e => setUser({ ...user, name: e.target.value })}
+      />
+      {user.errors.name && <p>{user.errors.name}</p>}
+
+      <input
+        type="email"
+        name="user[email]"
+        value={user.email}
+
+*/
+
 
 export default function NovoUsuario(){
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => {
+    const onSubmit = e=> {
         fetch("http://localhost:3001/user/new", {
             method: "POST",
-            body : JSON.stringify({
-                "completeName": data.completeName,
-                "email": data.email,
-                "password": data.password,
-                "aceppt": data.aceppt,
-                "photo": data.photo, 
-            }),
-        });
+            body : JSON.stringify({ data }),
+            headers: {"Content-Type" : "application/json"},
+        })
+        .then()
+        ;
         console.log(data);
     }
     return(

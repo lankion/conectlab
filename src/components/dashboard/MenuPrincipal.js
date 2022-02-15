@@ -17,11 +17,11 @@ export default function UsuarioDados(props){
                 bem vindo a 
             </TextoDashDescricao>
 
-            <LinkDash image={user} destino="/editar-perfil" escolha={props.selecaoU} texto="Editar Perfil" />
+            <LinkDash image={user} destino="/editar-perfil"  texto="Editar Perfil" />
 
-            <LinkDash image={colecao} destino="/colecoes" escolha={props.selecaoC} texto="Sua Coleção" />
+            <LinkDash image={colecao} destino="/colecoes" texto="Sua Coleção" />
 
-            <LinkDash image={licao} destino="/licoes" escolha={props.selecaoL} texto="Lições" />
+            <LinkDash image={licao} destino="/licoes"  texto="Lições" />
             
 
         </div>

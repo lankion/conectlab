@@ -26,12 +26,12 @@ input[type='email'], input[type='password'], [type='text'] {
 }
 
 input[type='submit'] {
-    padding-left: 0%;
     width: 290px;
     background: #0099FF;
     border-radius: 12px;
-    padding-left: 0%;
     color: #fff;
+    margin-left: 0px;
+    padding-right: 0px;
 }
 input[type='submit']:hover{
     background: #078CE4;

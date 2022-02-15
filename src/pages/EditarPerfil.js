@@ -3,7 +3,7 @@ import UsuarioDados from "../components/dashboard/UsuarioDados";
 export default function EditarPerfil(){
     return(
         <div>
-           <MenuPrincipal selecaoU="a" selecaoC="b" selecaoL="c"/>
+           <MenuPrincipal/>
            <UsuarioDados/> 
         </div>
     );
