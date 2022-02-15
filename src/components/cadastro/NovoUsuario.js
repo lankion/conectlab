@@ -7,18 +7,12 @@ import { Link } from "react-router-dom";
 
 export default function NovoUsuario(){
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => {
+    const onSubmit = (data) => {
         fetch("http://localhost:3001/user/new", {
             method: "POST",
-            body : JSON.stringify({
-                "completeName": data.completeName,
-                "email": data.email,
-                "password": data.password,
-                "aceppt": data.aceppt,
-                "photo": data.photo, 
-            }),
+            body : JSON.stringify(data),
         });
-        console.log(data);
+        console.log(JSON.stringify(data));
     }
     return(
         
@@ -34,7 +28,7 @@ export default function NovoUsuario(){
                 <label className={style.text}>
                     NOME COMPLETO
                     {errors.primeironome && <span>nome é obrigatorio</span>}
-                    <input type="text" {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
+                    <input type="text"  {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
                 </label>
 
                 <label className={style.text}> 
@@ -46,15 +40,15 @@ export default function NovoUsuario(){
                 <label className={style.text}>               
                     SENHA
                     {errors.senha && <span>Senha é obrigatória</span>}
-                    <input type="password" {...register("password")} placeholder="4 a 8 caracteres" required className={style.iconP}/>
+                    <input type="password"  {...register("password")} placeholder="4 a 8 caracteres" required className={style.iconP}/>
                 </label>
             
                 <label className={style.container}>
                      <label >Eu aceito os <Link to="termos" className={style.termos}>Termos e Condições</Link>. </label>                  
-                     <input type="checkbox"{...register("aceppt")}  required/>
+                     <input type="checkbox" {...register("aceppt")}  required/>
                 </label>
                 
-                <input type="submit" value="Criar conta"/>
+                <input type="submit" value="Criar conta" />
             
             <LinkEstilizado destino='/login' texto="Já possui conta?" estilizado="Entrar"/>  
             </form>

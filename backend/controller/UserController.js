@@ -1,4 +1,4 @@
-const User = require("../model/UserModel.js");
+const User = require("../model/UserModel");
 exports.get = function (req, res, next){
     User.get(function (err, User){
         if(err){
@@ -12,17 +12,21 @@ exports.get = function (req, res, next){
     })
 };
 exports.add = function(req, res, next){
-    let user = new User();
-    user.completeName = req.body.completeName;
-    user.email = req.body.email;
-    user.password = req.body.password;
-    user.aceppt= req.body.aceppt;
-    user.photo= false;
+    let user = new User({
+    completeName : req.body.completeName,
+    email : req.body.email,
+    password : req.body.password,
+    aceppt : req.body.aceppt,
+    photo : false,
+    });
+    console.log("Tou no back" + user);
     user.save(function (err){
     if (err) {
         return next(err);
     }
-    res.send("Usuário criado com sucesso")
+    res.send({
+        menssage: "Usuário criado com sucesso", 
+        data: user})
     })
 };
 exports.update = function(req, res){
