@@ -19,14 +19,14 @@
 
 ## Sobre
 
-O produto se constitui em um laboratório de circuitos eletrônicos com o objetivo de auxiliar as práticas de laboratório. O usuário tem a opção de usá-lo sem a obrigatoriedade de cadastro, mas uma vez cadastrado, abrir-se-á a possibilidade de se criar lição e de se armazenar o circuito criado no simulador. O simulador utiliza-se de ações de “arrastar e soltar” (drag and drop) para movimentação dos componentes, e ainda há a opção de simulação para visualização dos resultados.
+Nosso produto se constitui em um laboratório de circuitos eletrônicos com o objetivo de auxiliar práticas de laboratório nos cursos de engenharia elétrica e física na Universidade Federal do Ceará. O usuário tem a opção de usá-lo sem a obrigatoriedade de cadastro, mas uma vez cadastrado, abrir-se-á a possibilidade de se criar lições e  armazenar circuitos criado no simulador. O simulador utiliza-se de ações de “arrastar e soltar” (drag and drop) para movimentação dos componentes, e ainda há a opção de simulação para visualização dos resultados.
 
 
 ## Cliente
 
-![cliente](https://user-images.githubusercontent.com/34467745/148120773-a65f1b37-1017-45d3-8af6-46ccde3d0780.jpeg)
+![cliente](https://user-images.githubusercontent.com/34467745/148120773-a65f1b37-1017-45d3-8af6-46ccde3d0780.jpeg) 
 
-O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](https://github.com/wwagner33), professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC. O docente tem como linhas de pesquisa: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância; Informática Educativa; Multimídia para Educação; Swarm Intelligence.
+O nosso cliente é o professor [Wellington Wagner Ferreira Sarmento](https://github.com/wwagner33), professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC e tem como linhas de pesquisa alguns temas como: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância; Informática Educativa; Multimídia para Educação; Swarm Intelligence.
 
 
 ## Equipe AVATAR 
@@ -41,18 +41,17 @@ O nosso cliente trata-se do professor [Wellington Wagner Ferreira Sarmento](http
 
 
  ## Youtube
-Segue o link da apresentação do Youtube apresetando o presente projeto abaixo:
- 
+Link da apresentação desse projeto:
  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=vgHLnixMp4g" target="_blank"><img src="http://img.youtube.com/vi/vgHLnixMp4g/0.jpg" 
 alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
 
 ## Documento
-Segue o relatátorio [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) do planejamneto do projeto em questão
+Clique e veja nosso [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) de planejamento desse projeto.
 
 ## Instalação
  
-### Parte frontend
+### Frontend
 ```
 // Clone essse repositório
  
@@ -74,7 +73,7 @@ $ npm start
  
 ```
  
-### Parte backend
+### Backend
  ```
  // Navege para backend
  
