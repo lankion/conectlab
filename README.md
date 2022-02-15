@@ -24,7 +24,7 @@ Nosso produto se constitui em um laboratório de circuitos eletrônicos com o ob
 
 ## Cliente
 
-![cliente](https://user-images.githubusercontent.com/34467745/148120773-a65f1b37-1017-45d3-8af6-46ccde3d0780.jpeg)
+![cliente](https://user-images.githubusercontent.com/34467745/148120773-a65f1b37-1017-45d3-8af6-46ccde3d0780.jpeg) 
 
 O nosso cliente é o professor [Wellington Wagner Ferreira Sarmento](https://github.com/wwagner33), professor do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará - UFC e tem como linhas de pesquisa alguns temas como: Ambientes Virtuais de Aprendizagem; Uso de Tecnologias Digitais em Educação à Distância; Informática Educativa; Multimídia para Educação; Swarm Intelligence.
 
@@ -43,16 +43,15 @@ O nosso cliente é o professor [Wellington Wagner Ferreira Sarmento](https://git
  ## Youtube
 Link da apresentação desse projeto:
  
- 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=vgHLnixMp4g" target="_blank"><img src="http://img.youtube.com/vi/vgHLnixMp4g/0.jpg" 
 alt="Apresentação do Youtube" width="240" height="180" border="10" /></a>   
 
 ## Documento
-Nosso [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) de planejamneto desse projeto.
+Clique e veja nosso [relatório](https://github.com/lankion/conectlab/blob/master/Relat%C3%B3rio_Avatar_Checkpoint_4.pdf.pdf) de planejamneto desse projeto.
 
 ## Instalação
  
-### Parte frontend
+### Frontend
 ```
 // Clone essse repositório
  
@@ -74,7 +73,7 @@ $ npm start
  
 ```
  
-### Parte backend
+### Backend
  ```
  // Navege para backend
  
