@@ -1,18 +1,21 @@
-const User = require("../model/UserModel.js");
+const Users = require("../model/UserModel.js");
+
+
 exports.get = function (req, res, next){
-    User.get(function (err, User){
+    Users.find({},function (err, User){
         if(err){
             return next(err);;
         }
         res.json({
             status: "success",
-            message: "Listado todos os usuários",
-            data: User
+            message: "Listados todos os usuários",
+            data: Users
         })
     })
 };
 exports.add = function(req, res, next){
-    let user = new User();
+    let user = new Users();
+    console.log(req.body.completeName);
     user.completeName = req.body.completeName;
     user.email = req.body.email;
     user.password = req.body.password;

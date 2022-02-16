@@ -32,7 +32,7 @@ app.use("/user", user);
 //app.use("/lesson", lesson);
 
 app.get('/', (req, res) => {
-  res.send('Bem vindo ao Backend do ConectLab!')
+  res.send('Bem-vindo ao Backend do ConectLab!')
 })
 
 

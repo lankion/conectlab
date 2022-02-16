@@ -4,46 +4,15 @@ import { useForm } from 'react-hook-form';
 import style from './NovoUsuario.module.css';
 import LinkEstilizado from "./LinkEstilizado";
 import { Link } from "react-router-dom";
-/*
- const submit = e => {
-    e.preventDefault()
-    fetch('/api', {
-      method: 'POST',
-      body: JSON.stringify({ user }),
-      headers: { 'Content-Type': 'application/json' },
-    })
-      .then(res => res.json())
-      .then(json => setUser(json.user))
-  }
-
-  return (
-    <form onSubmit={submit}>
-      <input
-        type="text"
-        name="user[name]"
-        value={user.name}
-        onChange={e => setUser({ ...user, name: e.target.value })}
-      />
-      {user.errors.name && <p>{user.errors.name}</p>}
-
-      <input
-        type="email"
-        name="user[email]"
-        value={user.email}
-
-*/
-
 
 export default function NovoUsuario(){
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = e=> {
+    const onSubmit = data => {
         fetch("http://localhost:3001/user/new", {
             method: "POST",
-            body : JSON.stringify({ data }),
-            headers: {"Content-Type" : "application/json"},
-        })
-        .then(res => res.json());
-        console.log(data);
+            body : JSON.stringify({ data })
+        });
+    console.log(data);
     }
     return(
         
@@ -58,7 +27,7 @@ export default function NovoUsuario(){
             <form onSubmit={handleSubmit(onSubmit)} className={style.alinhamento}>          
                 <label className={style.text}>
                     NOME COMPLETO
-                    {errors.primeironome && <span>nome é obrigatorio</span>}
+                    {errors.primeironome && <span>nome é obrigatório</span>}
                     <input type="text" {...register("completeName")} placeholder="Nome Completo" required className={style.iconN}/>
                 </label>
 
