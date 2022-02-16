@@ -8,7 +8,7 @@ exports.get = function (req, res, next){
         }
         res.json({
             status: "success",
-            message: "Listados todos os usuários",
+            message: "Listados todos os usuários!",
             data: Users
         })
     })
@@ -25,14 +25,14 @@ exports.add = function(req, res, next){
     if (err) {
         return next(err);
     }
-    res.send("Usuário criado com sucesso")
+    res.send("Usuário criado com sucesso!")
     })
 };
 exports.update = function(req, res){
-    res.send("Eu atualizo um usuario");
+    res.send("Eu atualizo um usuário.");
 };
 exports.delete = function(req, res){
-    res.send("Eu deleto um usuario");
+    res.send("Eu deleto um usuário.");
 };
 
 
