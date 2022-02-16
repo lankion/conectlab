@@ -17,7 +17,7 @@ exports.add = function(req, res, next){
     email : req.body.email,
     password : req.body.password,
     aceppt : req.body.aceppt,
-    photo : false,
+    photo  : false,
     });
     console.log("Tou no back" + user);
     user.save(function (err){
