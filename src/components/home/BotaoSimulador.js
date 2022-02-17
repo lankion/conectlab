@@ -10,7 +10,7 @@ export default function BotaoSimulador(){
                     navigate('simulador');
                 }
             }>
-                Começe a simular
+                Comece a simular!
             </button>
         </div>
     );

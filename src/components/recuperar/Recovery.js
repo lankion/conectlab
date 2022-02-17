@@ -1,6 +1,7 @@
 import TextoRedefinir from "../recuperar/TextoRedefinir";
 import TextoDescricao from "../cadastro/TextoDescricao";
 import LinkEstilizado from "../cadastro/LinkEstilizado";
+import {Link} from "react-router-dom";
 import { useForm } from 'react-hook-form';
 import style from './Recovery.module.css';
 
@@ -21,7 +22,9 @@ export default function Recovery(){
                 E-MAIL
                 {errors.email && <span>email é obrigatorio</span>}
                 <input type="email" {...register("email")} placeholder="seunome@email.com" required className={style.iconE}/>
+                <Link to="/feedback">
                 <input type="submit" value="Enviar link de redefinição"/>
+                </Link>
              </label>
              <LinkEstilizado destino="/feedback" texto="De volta a" estilizado="Entrar"/>
         </form>
